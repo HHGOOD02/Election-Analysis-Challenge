@@ -27,5 +27,23 @@ A Colorado Board of Elections employee has provided me with voting information i
   - Diana DeGette with 73.8% of the vote, and 272,892 total votes
 
 ## Challenge Overview
+In addition to the candidate-centric overview, I have also been asked to provide a summary of the Counties involved in the election. To this end, I have additionally summarized the following data criteria:
+
+1. List of counties involved in this Congressional election
+2. Number of votes / voter turnout per county
+3. Overall percentage of total votes cast per county
+4. Highest turnout county
+
+This will serve to further validate the details of the election as a whole, and to provide additional insight into the nature of the recent election for those who may wish to do further exploratory analysis in future.
 
 ## Challenge Summary
+My findings have indicated a number of interesting patterns:
+
+- Denver county is enormously ahead in terms of voter turnout, generating 306,055 votes (82.8% of the overall total)
+- Jefferson and Arapahoe counties are closer in voter turnout, with 10.5 and 6.7% of the total vote respectively (38,855 & 24,801 votes)
+- If Denver county is significantly larger than Jefferson and Araphoe counties, this overwhelming control of the vote is within expectation
+
+This program is also applicable to other elections, and with slight modifications it will prove extremely versatile. Listed are two use cases for further development of this auditing program:
+
+- With the data to do so, only limited change would need to be introduced in order for the program to compute turnout percent (of the county, not of the vote count), which may be useful in determining optimum policy courses of action; but may also assist in driving voter engagement in future elections
+- With a relatively minor series of additions to the code, information could be parsed from the data on which candidates are most favored in which counties, which may help analyze voting trends and desires for policy platforms of the future
